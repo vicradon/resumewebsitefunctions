@@ -11,7 +11,8 @@ module.exports = async function (context, req) {
 
   context.res = {
     status: 202,
-    body: imageBuffer,
+    // body: imageBuffer,
+    body: "stuff",
     headers: {
       "Content-Disposition": "inline",
     },
