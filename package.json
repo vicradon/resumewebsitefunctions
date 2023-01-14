@@ -2,14 +2,15 @@
   "name": "resumewebsitefunctions",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "azure-storage": "^2.10.7",
     "canvas": "^2.11.0",
-    "node-latex": "^3.1.0"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"
