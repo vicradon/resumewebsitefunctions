@@ -16,5 +16,4 @@ module.exports = async function (context, req) {
       "Content-Disposition": "inline",
     },
   };
-  context.done();
 };
