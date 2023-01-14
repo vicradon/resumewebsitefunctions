@@ -1,0 +1,16 @@
+{
+  "name": "resumewebsitefunctions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "canvas": "^2.11.0",
+    "node-latex": "^3.1.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
+  }
+}
